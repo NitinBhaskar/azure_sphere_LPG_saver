@@ -1,0 +1,20 @@
+{
+  "SchemaVersion": 1,
+  "Name": "AvnetStarterKit-Hackster.io-V1.0",
+  "ComponentId": "685f13af-25a5-40b2-8dd8-8cbc253xxxx",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [ "0ne0009xxxx" ],
+  "Capabilities": {
+    "AllowedConnections": [ "global.azure-devices-provisioning.net", "tempdemo.azure-devices.net" ],
+    "AllowedTcpServerPorts": [],
+    "AllowedUdpServerPorts": [],
+    "DeviceAuthentication": "cabbf12b-373f-4b28-xxxx-223fe6exxxx",
+    "Gpio": [ 0, 4, 5, 8, 9, 10, 12, 13, 34 ],
+    "I2cMaster": [ "ISU2" ],
+    "NetworkConfig": false,
+    "SpiMaster": [],
+    "SystemTime": false,
+    "Uart": [],
+    "WifiConfig": true
+  }
+}
